@@ -4,7 +4,7 @@ from petlib.ec import EcGroup
 from zk_totp import ZK_TOTP
 
 
-class TestZK_TOOTP(unittest.TestCase):
+class TestZK_TOTP(unittest.TestCase):
     def setUp(self):
         self.group = ZK_TOTP(EcGroup())
 
